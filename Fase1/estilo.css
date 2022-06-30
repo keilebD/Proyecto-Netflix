@@ -1,0 +1,213 @@
+body{
+    background-image: linear-gradient( to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.445)), url('/Proyecto_Netflix/1Fase/src/fondonetflixjpg.jpg');
+    min-width: 100vh;
+    margin: 0;
+}
+
+@media (max-width: 740px) {
+    body{
+        background: #000;
+    }
+}
+
+.Main-section{
+    position: relative;
+    margin-left: 445px;
+    margin-top: 5px;
+    background-color: #000000b4;
+    width: 314px;
+    height: 560px;
+    border-radius: 4px;
+    padding: 60px 68px 40px;
+    /* margin: 40px auto 100px;
+    padding: 70px 60px 150px;
+    width: 450px; */
+    
+}
+
+@media (max-width: 740px) {
+    .Main-section{
+        background: #000;
+    }
+}
+
+.imagenlogo{
+    width: 230px;
+    height: 120px;
+    position: relative;
+    left: 30px;
+    margin-top: -20px;
+}
+
+@media (max-width: 740px) {
+    .imagenlogo{
+        width: 180px;
+    }
+}
+
+.Flex-container1{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 0px 0px 28px;
+}
+
+@media (max-width: 740px) {
+    h2{
+        background: transparent;
+        margin: 0;
+        width: 100%;
+        padding: 70px 40px 90px;
+        border-bottom: 1px solid gray;
+    }
+}
+
+.input1{
+    display: block;
+    width: 90%;
+    height: 50px;
+    /* padding: 16px 20px 0px; */
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: white;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.input2{
+    display: block;
+    width: 90%;
+    height: 50px;
+    /* padding: 16px 20px 0px; */
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: white;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    
+}
+
+button{
+    background-color: red;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    
+}
+
+.Flex-container2{
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 0;
+}
+
+.container0{
+    width: 20px;
+    height: 20px;
+}
+
+.text-container1{
+    font-size: 13px;
+    margin-left: 4px;
+    
+}
+
+.text-container2{
+    font-size: 13px;
+    margin-left: 90px;
+}
+
+.Flex-container3{
+    display: flex;
+    flex-wrap: wrap;
+    color: #727272;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.link-primeravez{
+    font-size: 16px;
+}
+
+.link-suscribete a{
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.link-suscribete a:hover{
+color: blue;
+text-decoration: underline;
+}
+
+.protegida{
+    margin-top: 12px;
+    font-size: 13px;
+    color: #9b9b9b;
+}
+
+
+.footer{
+    padding: 25px 40px 50px;
+    margin-top: 100px;
+    background-color: #000000b4;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+}
+
+
+.footer-info p{
+    color: gray;
+}
+
+.Llama a{
+    text-decoration: none;
+    color: grey;
+}
+
+.Llama a:hover{
+    text-decoration: underline;
+}
+
+.footer-links{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links__item{
+    width: 250px;
+    min-width: 200px;
+}
+
+.footer-links__item a{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer-info select{
+    background-color: #000;
+    border: 1px solid rgba(128, 128, 128, .466);
+    color: gray;
+    outline: none;
+    padding: 13px;
+    margin-left: 40px;
+}
